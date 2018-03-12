@@ -9,7 +9,10 @@ public class Index{
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
-    System.out.println("3. Exit");
+    System.out.println("3. methods");
+	System.out.println("4. Shadowing");
+	System.out.println("5. Overloading");
+	System.out.println("6. Exit");
 
     System.out.println();
 
@@ -27,7 +30,22 @@ public class Index{
         System.out.println();
         FirstSwitch.main(null);
         break;
-      case 3:
+		case 3:
+        System.out.println("Methods");
+        System.out.println();
+        Methods.main(null);
+        break;
+		case 4:
+        System.out.println("Shadowing");
+        System.out.println();
+        Shadowing.main(null);
+        break;
+		case 5:
+        System.out.println("Overloading");
+        System.out.println();
+        Overloading.main(null);
+        break;
+      case 6:
         System.out.println("Exiting....");
         break;
       default:
