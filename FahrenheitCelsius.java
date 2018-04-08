@@ -8,6 +8,9 @@ public class FahrenheitCelsius
     {
 		Scanner console = new Scanner(System.in);
 
+
+
+
 		double cal = 0, fah = 0, cal1 = 0, fah1 = 0;
 		int choice;
 
@@ -47,6 +50,11 @@ public class FahrenheitCelsius
 			System.out.println("3. Exit");
 			System.out.print("Choice: ");
 			choice = console.nextInt();
+
 		}//while
+		Index.main(null);
+
+
+
     }//main
 }

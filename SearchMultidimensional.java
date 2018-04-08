@@ -26,6 +26,7 @@
    }
 	System.out.println();
 	System.out.println("Records with match: "+match);
+	Index.main(null);
 
 
  }
